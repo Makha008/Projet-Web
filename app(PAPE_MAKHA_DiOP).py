@@ -33,6 +33,11 @@ if st.checkbox("afficher les information du dataset"):
 if st.button("afficher les nom des clonnes"):
     st.write(data.columns.tolist())
     
+if st.button("afficher le type du dataset"):
+    st.write(type(data))
+if st.button("les types des clonnes sélectionnés"):
+    st.write(data.dtypes)
+    
 if st.button("La shape du dataset"):
     st.write(data.shape)
     
