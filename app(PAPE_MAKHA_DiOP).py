@@ -12,11 +12,15 @@ data = pd.read_csv('C:/Users/makha/Documents/Doc/CoursM1/Python/Python Web/TP/ma
 #on supprime les colonnes non utilisés
 data.drop(['Unnamed: 0','ISO code','Survey Year','Source','Report Author','Notes','Short Source'], axis=1, inplace=True)
 
+#st.write(data)
+st.info
 #titre de l'application
 st.title("My application")
 
 #l'entete
 st.header("Projet Data visualisation")
+
+
 
 #nav
 st.sidebar.header("Python Web")
